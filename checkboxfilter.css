@@ -1,0 +1,31 @@
+.la {
+    display:none;
+}
+
+.lb {
+    display:none;
+}
+
+.lc {
+    display:none;
+}
+
+.ld {
+    display:none;
+}
+
+#lettera.filterbox:checked ~ .la {
+    display:block;
+}
+
+#letterb.filterbox:checked ~ .lb {
+    display:block;
+}
+
+#letterc.filterbox:checked ~ .lc {
+    display:block;
+}
+
+#letterd.filterbox:checked ~ .ld {
+    display:block;
+}
