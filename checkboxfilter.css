@@ -2,11 +2,9 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+    vertical-align:top;
 }
 
-body {
-    vertical-align: top;
-}
 .persoon {
     background-color: beige;
     display: flex;
@@ -30,17 +28,17 @@ body {
 }
 
 #lettera.filterbox:checked ~ .grid .la {
-    display:block;
+    display:flex;
 }
 
 #letterb.filterbox:checked ~ .grid .lb {
-    display:block;
+    display:flex;
 }
 
 #letterc.filterbox:checked ~ .grid .lc {
-    display:block;
+    display:flex;
 }
 
 #letterd.filterbox:checked ~ .grid .ld {
-    display:block;
+    display:flex;
 }
