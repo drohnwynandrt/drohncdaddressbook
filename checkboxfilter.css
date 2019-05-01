@@ -1,3 +1,8 @@
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .la {
     display:none;
 }
@@ -14,18 +19,18 @@
     display:none;
 }
 
-#lettera.filterbox:checked ~ .la {
+#lettera.filterbox:checked ~ .grid .la {
     display:block;
 }
 
-#letterb.filterbox:checked ~ .lb {
+#letterb.filterbox:checked ~ .grid .lb {
     display:block;
 }
 
-#letterc.filterbox:checked ~ .lc {
+#letterc.filterbox:checked ~ .grid .lc {
     display:block;
 }
 
-#letterd.filterbox:checked ~ .ld {
+#letterd.filterbox:checked ~ .grid .ld {
     display:block;
 }
