@@ -7,9 +7,17 @@
 
 .persoon {
     background-color: beige;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-direction: row;
-
+}
+.profielfoto {
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+.profielinfo {
+    grid-column: 1/3;
+    grid-row: 2/3;
 }
 .la {
     display:none;
@@ -28,17 +36,17 @@
 }
 
 #lettera.filterbox:checked ~ .grid .la {
-    display:flex;
+    display:grid;
 }
 
 #letterb.filterbox:checked ~ .grid .lb {
-    display:flex;
+    display:grid;
 }
 
 #letterc.filterbox:checked ~ .grid .lc {
-    display:flex;
+    display:grid;
 }
 
 #letterd.filterbox:checked ~ .grid .ld {
-    display:flex;
+    display:grid;
 }
