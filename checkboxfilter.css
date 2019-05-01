@@ -5,6 +5,26 @@
     vertical-align:top;
 }
 
+.filterbox{
+    display:none;
+
+}
+
+.filterbox + label{
+    display:inline-block;
+    border:solid;
+    border-color:black;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: white;
+    color: gray;
+    padding:30px;
+    margin:20px 10px;
+}
+.filterbox:checked + label{
+    background-color:black;
+
+}
 .persoon {
     background-color: beige;
     display: grid;
@@ -48,5 +68,20 @@
 }
 
 #letterd.filterbox:checked ~ .grid .ld {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .la {
+    display:grid;
+}
+
+#letterall.filterbox:checked ~ .grid .lb {
+    display:grid;
+}
+
+#letterall.filterbox:checked ~ .grid .lc {
+    display:grid;
+}
+
+#letterall.filterbox:checked ~ .grid .ld {
     display:grid;
 }
