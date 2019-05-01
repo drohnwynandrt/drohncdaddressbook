@@ -1,8 +1,18 @@
 .grid {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
 }
 
+body {
+    vertical-align: top;
+}
+.persoon {
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+
+}
 .la {
     display:none;
 }
