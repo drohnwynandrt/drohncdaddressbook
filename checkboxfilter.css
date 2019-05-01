@@ -9,21 +9,22 @@
     display:none;
 
 }
-
+.choicecontainer{
+    text-align:center;
+}
 .filterbox + label{
     display:inline-block;
     border:solid;
-    border-color:black;
+    border-color:beige;
     border-radius: 100%;
     cursor: pointer;
-    background-color: white;
     color: gray;
     padding:30px;
     margin:20px 10px;
+    background-color:white;
 }
 .filterbox:checked + label{
-    background-color:black;
-
+    background-color:beige;
 }
 .persoon {
     background-color: beige;
