@@ -28,6 +28,10 @@ p{
     padding:30px;
     margin:20px 10px;
     background-color:white;
+    transition: background-color 1s;
+}
+.filterbox:hover + label{
+    background-color:rgba(245, 245, 220, 0.247);
 }
 .filterbox:checked + label{
     background-color:beige;
