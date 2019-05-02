@@ -58,6 +58,72 @@ p{
 .ld {
     display:none;
 }
+.le {
+    display:none;
+}
+.lf {
+    display:none;
+}
+.lg {
+    display:none;
+}
+.lh {
+    display:none;
+}
+.li {
+    display:none;
+}
+.lj {
+    display:none;
+}
+.lk {
+    display:none;
+}
+.ll {
+    display:none;
+}
+.lm {
+    display:none;
+}
+.ln {
+    display:none;
+}
+.lo {
+    display:none;
+}
+.lp {
+    display:none;
+}
+.lq {
+    display:none;
+}
+.lr {
+    display:none;
+}
+.ls {
+    display:none;
+}
+.lt {
+    display:none;
+}
+.lu {
+    display:none;
+}
+.lv {
+    display:none;
+}
+.lw {
+    display:none;
+}
+.lx {
+    display:none;
+}
+.ly {
+    display:none;
+}
+.lz {
+    display:none;
+}
 
 #lettera.filterbox:checked ~ .grid .la {
     display:grid;
@@ -74,18 +140,172 @@ p{
 #letterd.filterbox:checked ~ .grid .ld {
     display:grid;
 }
+
+#lettere.filterbox:checked ~ .grid .le {
+    display:grid;
+}
+
+#letterf.filterbox:checked ~ .grid .lf {
+    display:grid;
+}
+
+#letterg.filterbox:checked ~ .grid .lg {
+    display:grid;
+}
+
+#letterh.filterbox:checked ~ .grid .lh {
+    display:grid;
+}
+
+#letteri.filterbox:checked ~ .grid .li {
+    display:grid;
+}
+
+#letterj.filterbox:checked ~ .grid .lj {
+    display:grid;
+}
+
+#letterk.filterbox:checked ~ .grid .lk {
+    display:grid;
+}
+
+#letterl.filterbox:checked ~ .grid .ll {
+    display:grid;
+}
+
+#letterm.filterbox:checked ~ .grid .lm {
+    display:grid;
+}
+
+#lettern.filterbox:checked ~ .grid .ln {
+    display:grid;
+}
+
+#lettero.filterbox:checked ~ .grid .lo {
+    display:grid;
+}
+
+#letterp.filterbox:checked ~ .grid .lp {
+    display:grid;
+}
+
+#letterq.filterbox:checked ~ .grid .lq {
+    display:grid;
+}
+
+#letterr.filterbox:checked ~ .grid .lr {
+    display:grid;
+}
+
+#letters.filterbox:checked ~ .grid .ls {
+    display:grid;
+}
+
+#lettert.filterbox:checked ~ .grid .lt {
+    display:grid;
+}
+
+#letteru.filterbox:checked ~ .grid .lu {
+    display:grid;
+}
+
+#letterv.filterbox:checked ~ .grid .lv {
+    display:grid;
+}
+
+#letterw.filterbox:checked ~ .grid .lw {
+    display:grid;
+}
+
+#letterx.filterbox:checked ~ .grid .lx {
+    display:grid;
+}
+
+#lettery.filterbox:checked ~ .grid .ly {
+    display:grid;
+}
+
+#letterz.filterbox:checked ~ .grid .lz {
+    display:grid;
+}
+
+
+
 #letterall.filterbox:checked ~ .grid .la {
     display:grid;
 }
-
 #letterall.filterbox:checked ~ .grid .lb {
     display:grid;
 }
-
 #letterall.filterbox:checked ~ .grid .lc {
     display:grid;
 }
-
 #letterall.filterbox:checked ~ .grid .ld {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .le {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lf {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lg {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lh {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .li {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lj {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lk {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .ll {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lm {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .ln {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lo {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lp {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lq {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lr {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .ls {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lt {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lu {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lv {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lw {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lx {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .ly {
+    display:grid;
+}
+#letterall.filterbox:checked ~ .grid .lz {
     display:grid;
 }
